@@ -10,8 +10,7 @@ WIDTH, HEIGHT = 600, 600
 WHITE = (255, 255, 255)
 BLACK = (0, 0, 0)
 BLUE = (0, 0, 255)
-RED = (255, 0, 0)
-
+GREEN = (0, 255, 0)  # Changed color to green
 # Game variables
 GRID_SIZE = 3
 DOT_RADIUS = 5
@@ -51,7 +50,7 @@ def draw_grid():
             if cell['left']:
                 pygame.draw.line(screen, BLACK, (x, y), (x, y + CELL_SIZE), 2)
             if cell['owner']:
-                color = BLUE if cell['owner'] == 'X' else RED
+                color = BLUE if cell['owner'] == 'X' else GREEN  # Changed color to green
                 pygame.draw.rect(screen, color, (x + 1, y + 1, CELL_SIZE - 2, CELL_SIZE - 2))
 
     score_text = font.render(f"X: {score['X']}  O: {score['O']}", True, BLACK)
@@ -182,3 +181,4 @@ def restart_game():
 
 if __name__ == "__main__":
     main()
+
