@@ -9,7 +9,7 @@ Dot and Boxes is a classic pen-and-paper game where two players take turns conne
 - **Grid-based Gameplay:** The game consists of a grid where players take turns to draw lines between dots.
 <br>
 
-- **Two Players:**The game supports two players - either two human players taking turns or one human player against an AI.
+ **Two Players:** The game supports two players - either two human players taking turns or one human player against an AI.
 
 <br>
 
