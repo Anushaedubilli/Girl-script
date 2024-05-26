@@ -14,7 +14,7 @@ Score Tracking: Keep track of each player's score throughout the game.
 Single-player Mode: Play against a basic AI that makes random moves.
 
 🎮 Instructions for Playing
-Player 1 is represented by 'X' (Blue) and Player 2 (or AI) is represented by 'O' (Red).
+Player 1 is represented by 'X' (Blue) and Player 2 (or AI) is represented by 'O' (Green).
 Controls:
  Use the mouse to draw lines by clicking near the sides of the boxes.
 Restart Game: Press the 'R' key to restart the game.
@@ -24,7 +24,7 @@ Steps to Play
 Drawing Lines:
 Click near the top, right, bottom, or left side of a cell to draw the corresponding line.
 Completing Boxes:
-When you complete a box, it will be filled with your color (Blue for 'X', Red for 'O'), and you will get an additional turn.
+When you complete a box, it will be filled with your color (Blue for 'X', Green for 'O'), and you will get an additional turn.
 AI Moves:
 If playing in single-player mode, the AI will automatically make its move after your turn.
 Winning the Game:
