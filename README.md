@@ -8,43 +8,59 @@ The game has been implemented using Python and Pygame. It supports both two-play
 ✨ Features
 
 Grid-based Gameplay: The game consists of a grid where players take turns to draw lines between dots.
-Two Players: The game supports two players - either two human players taking turns or one human player against an AI.
+Two Players:
+ The game supports two players - either two human players taking turns or one human player against an AI.
+
 Turn-based System: The game alternates turns between the players unless a player completes a box, in which case they get an extra turn.
+
 Score Tracking: Keep track of each player's score throughout the game.
+
 Single-player Mode: Play against a basic AI that makes random moves.
 
 🎮 Instructions for Playing
+
 Player 1 is represented by 'X' (Blue) and Player 2 (or AI) is represented by 'O' (Green).
+
 Controls:
+
  Use the mouse to draw lines by clicking near the sides of the boxes.
+
 Restart Game: Press the 'R' key to restart the game.
+
 Quit Game: Press 'Q' or the 'Escape' key to quit the game.
 
+
 Steps to Play
-Drawing Lines:
-Click near the top, right, bottom, or left side of a cell to draw the corresponding line.
-Completing Boxes:
-When you complete a box, it will be filled with your color (Blue for 'X', Green for 'O'), and you will get an additional turn.
-AI Moves:
-If playing in single-player mode, the AI will automatically make its move after your turn.
-Winning the Game:
-The game ends when all boxes are completed. The player with the most boxes wins.
+
+Drawing Lines:Click near the top, right, bottom, or left side of a cell to draw the corresponding line.
+
+Completing Boxes:When you complete a box, it will be filled with your color (Blue for 'X', Green for 'O'), and you will get an additional turn.
+
+AI Moves:If playing in single-player mode, the AI will automatically make its move after your turn.
+
+Winning the Game:The game ends when all boxes are completed. The player with the most boxes wins.
+
 💻 Installation
+
 To play the game locally, follow these steps:
 
 Clone the repository to your local machine:
 
-git clone https://github.com/your_username/dot_and_boxes.git
-Navigate to the project directory:
+  git clone https://github.com/your_username/dot_and_boxes.git
 
-cd dot_and_boxes
+Navigate to the project directory:
+     
+     cd dot_and_boxes
+
 Install dependencies/requirements:
 
-pip install -r requirements.txt
-Or, if there is no requirements.txt file:
-pip install pygame
+     pip install -r requirements.txt
+or, pip install pygame
+
 Run the Game:
+
 python main.py
+
 This will launch the game!
 
 🤝 How to Contribute
@@ -54,15 +70,15 @@ Fork the repository.
 
 Clone your forked repository:
 
-git clone https://github.com/your_username/dot_and_boxes.git
+git clone git clone https://github.com/<your_username>/gamer_21.git
 
 Navigate to the project directory:
 
-cd dot_and_boxes
+cd gamer_21
 
 Add a reference (remote) to the original repository:
 
-git remote add upstream https://github.com/original_author/dot_and_boxes.git
+git remote add upstream https://github.com/shrawani21/gamer_21.git
 
 Always take a pull from the upstream repository to keep your main branch updated:
 
@@ -70,20 +86,21 @@ git pull upstream main
 
 Create a new branch for your feature or bugfix:
 
-git checkout -b feature_or_bugfix_branch
+git checkout -b <YOUR_BRANCH_NAME>
 
-Make your changes.
+Perform your desired changes to the code base.
+check your changes:
+1.git status
+2.git diff
 
 Stage your changes:
 git add .
-
 Commit your changes:
-
-git commit -m "Description of the feature or bugfix"
+git commit -m "relavant message"
 
 Push your changes to your remote repository:
 
-git push origin feature_or_bugfix_branch
+git push -u origin <your_branch_name>
 
 Create a pull request by comparing changes across forks.
 
